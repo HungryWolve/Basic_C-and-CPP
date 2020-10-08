@@ -1,10 +1,5 @@
 #include<stdio.h>
-int max(int a,int b){
-    if(a>b)
-        return a;
-    else 
-        return b;
-}
+int max(int,int);
 
 void main(){
     int a,b;
@@ -15,3 +10,4 @@ void main(){
     
 
 }
+int max(int a,int b){return a>b?a:b;}

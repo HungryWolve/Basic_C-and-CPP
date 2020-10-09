@@ -6,6 +6,6 @@ main()
 	scanf("%d",&a);
 	printf("\nEnter the second value");
 	scanf("%d",&b);
-	a+b==c;
-	scanf("%d",&c);
+	a+b=c;
+	printf("Addition = %d",c);
 }

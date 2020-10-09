@@ -37,5 +37,6 @@ main()
 		
 		default:
 			printf("Invalid weekday number");
+			break;
 	}
 }
